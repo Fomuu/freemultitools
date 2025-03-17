@@ -1,0 +1,22 @@
+<?php include 'header.php'; ?>
+
+<div class="container my-5">
+    <h1 class="text-center mb-4">Similar Photo Generator</h1>
+    
+    <?php include 'ads.php'; ?>
+    
+    <div class="card">
+        <div class="card-body">
+            <!-- Add your tool content here -->
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Upload Base Image</label>
+                    <input type="file" class="form-control" accept="image/*">
+                </div>
+                <button type="submit" class="btn btn-warning">Generate Similar Photos</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<?php include 'footer.php'; ?>

@@ -1,0 +1,44 @@
+<?php include 'header.php'; ?>
+
+<div class="container my-5">
+    <h1 class="text-center mb-5">All Tools</h1>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <a href="text_to_image.php" class="text-decoration-none">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-image fa-3x text-primary mb-3"></i>
+                        <h3 class="card-title">Text to Image</h3>
+                        <p class="card-text">Convert text descriptions to images</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="image_to_video.php" class="text-decoration-none">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-video fa-3x text-success mb-3"></i>
+                        <h3 class="card-title">Image to Video</h3>
+                        <p class="card-text">Convert images to video slideshows</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="similar_photo.php" class="text-decoration-none">
+                <div class="card tool-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-copy fa-3x text-warning mb-3"></i>
+                        <h3 class="card-title">Similar Photo Generator</h3>
+                        <p class="card-text">Generate similar looking photos</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<?php include 'footer.php'; ?>
